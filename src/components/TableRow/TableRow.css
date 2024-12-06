@@ -1,0 +1,86 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: rgba(36, 40, 50, 1);
+}
+
+.main {
+  padding: 2%;
+  padding-left: 20%;
+    background: rgba(36, 40, 50, 1);
+    height: 100%;
+}
+
+.table {   
+  padding: 3% 0; 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tableRow {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableCell {
+    width: 300px;
+    border-radius: 10px;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background: linear-gradient(
+      0deg,
+      rgba(77, 54, 208, 0.3) 0%,
+      rgba(132, 116, 254, 0.3) 100%
+    );
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be; 
+}
+
+.tableCell2 {
+  width: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(77, 54, 208, 0.3) 0%,
+    rgba(132, 116, 254, 0.3) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be; 
+}
+
+.newStr, input, .sortButton, .sortButton2 {
+  border-radius: 10px;
+  background-color: #cbc7e4be; 
+  border: 2px solid #4d36d0be;
+  height: 30px;
+  padding: 5px;
+}
+
+.newStr:hover, input:hover {
+  border-color: rgb(186, 157, 255);
+}
+
+.input:focus {
+  background-color: #ddd6ffbe;
+  border: 2px solid #4d36d0be;
+  outline: none;
+}
+
+.sortButton {
+  margin-left: 110px;
+  height: 45px;
+  width: 50px;
+}
+
+.sortButton2 {
+  margin-left: 5px;
+  height: 45px;
+  width: 50px;
+}
